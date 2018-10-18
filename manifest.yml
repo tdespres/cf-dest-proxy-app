@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-dest-proxy-app
+  host: cf-dest-proxy-app
+  memory: 128M
+services:
+- xsuaa_service
+- destination_service
